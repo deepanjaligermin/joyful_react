@@ -10,7 +10,7 @@ import ArrowIcon from '../assets/signin/arrow.svg';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
 
   const navItems = [
     { label: 'About', href: '#about' },
@@ -22,7 +22,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth > 768);
+      setIsDesktop(window.innerWidth >= 768);
     };
 
     window.addEventListener('resize', handleResize);
@@ -57,7 +57,7 @@ const Header = () => {
           </Link>
 
           {isDesktop && (
-            <div className="flex items-center space-x-8" style={{ fontWeight: '400', lineHeight: '23px', color: 'rgba(0, 0, 0, 0.6)' }}>
+            <div className="md:flex items-center space-x-8 ${!isDesktop ? 'hidden' : 'flex'}" style={{ fontWeight: '400', lineHeight: '23px', color: 'rgba(0, 0, 0, 0.6)' }}>
               {navItems.map((item) => (
                 <a
                   key={item.label}

@@ -285,7 +285,11 @@ const Testimonial = () => {
     <section className="bg-white py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-gray-500 mb-2">Testimonials</p>
+          <div className="mb-4 sm:mb-6">
+          <button className="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium text-black border border-black/10 hover:bg-gray-50 transition-colors">
+           Testimonials
+          </button>
+          </div>
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
             What our users say
           </h2>

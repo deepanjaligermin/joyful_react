@@ -14,7 +14,7 @@ export default function WebsiteFooter() {
   };
 
   return (
-    <footer className="w-full overflow-hidden" style={{padding: 0}}>
+    <div className="w-full overflow-hidden" style={{padding: 0}}>
       <div className="w-full relative" style={{ height: '472px', background: 'linear-gradient(180deg, #FFFFFF 27.96%, #D2DCFF 102.93%)' }}>
         <div className="container mx-auto px-4 relative h-full flex items-center justify-center">
           {/* Left decorative element with responsive positioning */}
@@ -62,10 +62,8 @@ export default function WebsiteFooter() {
           </div>
         </div>
       </div>
-
-      {/* Main footer with exact height */}
       
       <Footer/>
-    </footer>
+    </div>
   );
 }
