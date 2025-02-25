@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/joyful/static/css/main.6ca2bd27.css",
+    "main.js": "/joyful/static/js/main.e8de9371.js",
+    "static/media/tracker.png": "/joyful/static/media/tracker.ddcd355924304644ec3b.png",
+    "static/media/cube1.png": "/joyful/static/media/cube1.8720fc55dbbd11900520.png",
+    "static/media/cube2.png": "/joyful/static/media/cube2.88cb04032ed2d3a5dc08.png",
+    "static/media/instagram.svg": "/joyful/static/media/instagram.3216f9965cbf45094be33c68793c7d6e.svg",
+    "static/media/youtube.svg": "/joyful/static/media/youtube.6962f5fbd4a71c1c7afa42247af803f3.svg",
+    "static/media/tiktok.svg": "/joyful/static/media/tiktok.37167b7714d810f53b3fef4c137560f6.svg",
+    "static/media/pintrest.svg": "/joyful/static/media/pintrest.43cc5ff10493e62b5cbea94fc8d38fba.svg",
+    "static/media/arrow.svg": "/joyful/static/media/arrow.f3a03c35893a76a286b5c2ccb7d82d69.svg",
+    "static/media/linkedin.svg": "/joyful/static/media/linkedin.6a1958226b5ead508bb600cedb64d057.svg",
+    "index.html": "/joyful/index.html",
+    "static/media/x.svg": "/joyful/static/media/x.8190d90f710577b88c32225df7d98353.svg",
+    "main.6ca2bd27.css.map": "/joyful/static/css/main.6ca2bd27.css.map",
+    "main.e8de9371.js.map": "/joyful/static/js/main.e8de9371.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ca2bd27.css",
+    "static/js/main.e8de9371.js"
+  ]
+}
